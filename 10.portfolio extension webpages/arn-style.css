@@ -1,0 +1,34 @@
+body, html {
+    height: 100%;
+  
+    background-image: url("rainmage.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ 
+h1 {    
+    
+    padding-left: 12%;
+    padding-top: 5%;
+    text-align: center;
+    color: rgb(221, 20, 131);
+    
+    
+
+}
+
+p{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    color: rgb(221, 20, 131);
+    word-spacing: 3px;
+    text-shadow: 5px 5px 5px black;
+    font-size: 26px;
+    line-height: 45px;
+
+
+}
