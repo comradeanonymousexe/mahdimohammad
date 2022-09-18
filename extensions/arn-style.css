@@ -1,11 +1,14 @@
-body, html {
-    height: 100%;
+html {
+    
   
-    background-image: url("rainmage.jpg");
+    background: url("rainmage.jpg");
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
+    
+
   }
 
  
