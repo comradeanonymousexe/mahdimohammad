@@ -1,0 +1,107 @@
+html,body{
+    background-color: #8BC6EC;
+    background-image: linear-gradient( #7F8C8d, #000000);
+    background-repeat: no-repeat;
+    
+
+}
+
+.main{
+
+  padding-left: 300px;
+  padding-right: 300px;
+  
+}
+
+
+
+.navbar {
+    
+    width: 100%;
+    background-color:#4b52529c;
+    overflow: hidden;
+    padding-bottom: 10px;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    box-shadow: inset 0 0 0 0 red;
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color:red;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    font-size: 20px;
+    padding-right: 15px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    box-shadow: inset 200px 0 0 0 whitesmoke;
+    color: black;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: black;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+img{
+
+    padding-top: 7px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.text-style{
+    background: -webkit-linear-gradient(#e7e9ee,#F5F7FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    word-spacing: 20%;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 21px;
+    text-align: center;
+    
+    border-radius: 20px;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+@media only screen and (max-width: 900px){
+    .text-style{
+    padding-right: 12%;
+    padding-left: 12%;
+
+   }
+    .navbar a{
+     font-size: 3 vw;
+    }
+
+    .text-style{
+      font-size: 4vw;
+      line-height: 35px;
+    }
+    .main{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .navbar a:hover {
+      box-shadow: inset 430px 0 0 0 whitesmoke;
+      
+    }
+}
+    
