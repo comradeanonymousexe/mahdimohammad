@@ -77,16 +77,16 @@ img{
     .text-style{
     padding-right: 12%;
     padding-left: 12%;
+    font-size: 4vw;
+    line-height: 35px;
 
    }
     .navbar a{
+     padding-right:20px;
      font-size: 3 vw;
     }
 
-    .text-style{
-      font-size: 4vw;
-      line-height: 35px;
-    }
+
     .main{
       padding-left: 50px;
       padding-right: 50px;
