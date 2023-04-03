@@ -75,15 +75,15 @@ img{
 
 @media only screen and (max-width: 900px){
     .text-style{
-    padding-right: 12%;
-    padding-left: 12%;
+    padding-right: 7%;
+    padding-left: 7%;
     font-size: 4vw;
     line-height: 35px;
 
    }
     .navbar a{
-     padding-right:20px;
-     font-size: 3 vw;
+     padding-right:15px;
+     font-size: 2 vw;
     }
 
 
