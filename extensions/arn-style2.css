@@ -75,10 +75,10 @@ img{
 
 @media only screen and (max-width: 900px){
     .text-style{
-    padding-right: 6%;
-    padding-left: 6%;
+    padding-right: 5%;
+    padding-left: 5%;
     font-size: 4vw;
-    line-height: 15px;
+    line-height: 10px;
 
    }
     .navbar {
@@ -91,8 +91,8 @@ img{
 
 
     .main{
-      padding-left: 35px;
-      padding-right: 35px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
 
     .navbar a:hover {
