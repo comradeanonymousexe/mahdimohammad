@@ -78,11 +78,14 @@ img{
     padding-right: 5%;
     padding-left: 5%;
     font-size: 4vw;
-    line-height: 10px;
+    line-height: 5px;
 
    }
+    br{
+    line-height : 20px;
+}
     .navbar {
-     padding-bottom: 5px;
+     padding-bottom: 0px;
     }
     .navbar a{
      padding-right:15px;
