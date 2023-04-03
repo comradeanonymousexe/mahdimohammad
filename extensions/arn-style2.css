@@ -81,6 +81,9 @@ img{
     line-height: 35px;
 
    }
+    .navbar {
+     padding-bottom:8px;
+    }
     .navbar a{
      padding-right:15px;
      font-size: 2 vw;
@@ -88,8 +91,8 @@ img{
 
 
     .main{
-      padding-left: 50px;
-      padding-right: 50px;
+      padding-left: 40px;
+      padding-right: 40px;
     }
 
     .navbar a:hover {
